@@ -29,7 +29,7 @@ while(True):
     if cv2.waitKey(25) == 32:
         break
   
-# Después del bucle libera el objeto capturado
+# Después del bucle, libera el objeto capturado
 vid.release()
 
 # Cierra todas las ventanas
